@@ -1,1 +1,1 @@
-document.write(<p>Tähän tarina</p>);
+document.write("<p>Tähän tarina</p>");
