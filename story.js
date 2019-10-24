@@ -7,7 +7,7 @@ $(document).ready(() => {
       document.getElementById("story").innerHTML = "Tähän tarina."
     },
     error: (err) => {
-      console.log(`Error: ${err}`)
+      console.log(err)
     }
   })
 });
