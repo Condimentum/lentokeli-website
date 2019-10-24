@@ -1,3 +1,3 @@
 setTimeout(() => {
-  document.write("<p>Tähän tarina</p>");
+  document.getElementById("story").innerHTML = "Tähän tarina."
 }, 3000);
