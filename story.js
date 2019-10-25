@@ -1,17 +1,7 @@
 $(document).ready(() => {
-  const url = "https://fgrhn2wld3.execute-api.eu-north-1.amazonaws.com/dev/story";
-  httpGet(url, 'json', false, (res) => {
-    document.getElementById("story").innerHTML = "Tähän tarina."
-  }, (err) => {
-    console.log("error");
-    console.log(err);
-  });
+  const url = "https://4g9tvinv02.execute-api.eu-north-1.amazonaws.com/dev/story";
+  fetch(url, {mode: 'cors'})
+    .then(response => response.json())
+    .then(data => document.getElementById("story").innerHTML = data.text)
+    .catch(err => console.log(err));
 });
-
-const httpGet = (theUrl) =>
-{
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
-    xmlHttp.send( null );
-    return xmlHttp.responseText;
-}
