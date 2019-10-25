@@ -3,6 +3,7 @@ $(document).ready(() => {
   httpGet(url, 'json', false, (res) => {
     document.getElementById("story").innerHTML = "Tähän tarina."
   }, (err) => {
+    console.log("error");
     console.log(err);
   });
 });
