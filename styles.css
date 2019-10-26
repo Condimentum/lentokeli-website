@@ -38,6 +38,17 @@ body .demo-blog {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
 
+.semi-transparent-bg {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.forecast {
+  width: 80%;
+  margin-left: 24px;
+}
+.weather-icon {
+  width: 24px !important;
+  height: 24px !important;
+}
 .demo-blog .demo-blog__posts {
   max-width: 900px;
   padding: 0;
