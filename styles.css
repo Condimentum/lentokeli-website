@@ -76,6 +76,10 @@ body .demo-blog {
     -webkit-overflow-scrolling: touch;
   }
 }
+p {
+  width:inherit;
+  word-wrap: break-word;
+}
 .demo-blog .mdl-card {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -139,7 +143,7 @@ body .demo-blog {
   color: inherit;
 }
 .demo-blog .mdl-card__supporting-text {
-  width: 100%;
+  width: auto;
   padding: 16px;
   min-height: 64px;
   display: -webkit-flex;
