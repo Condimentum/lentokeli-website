@@ -39,10 +39,6 @@ body .demo-blog {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
 
-blockquote {
-  font-size: 1.37rem;
-}
-
 .semi-transparent-bg {
   background-color: rgba(0, 0, 0, 0.3);
 }
@@ -72,12 +68,18 @@ blockquote {
     position: relative;
     -webkit-overflow-scrolling: touch;
   }
+  blockquote {
+    font-size: 1rem;
+  }
 }
 @media (min-height: 1024px), (min-width:1025px) {
   .demo-blog.mdl-layout .mdl-layout__content {
     padding-top: 230px;
     position: relative;
     -webkit-overflow-scrolling: touch;
+  }
+  blockquote {
+    font-size: 1.37rem;
   }
 }
 p {
