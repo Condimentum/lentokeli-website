@@ -39,6 +39,10 @@ body .demo-blog {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
 
+blockquote {
+  font-size: 1.37rem;
+}
+
 .semi-transparent-bg {
   background-color: rgba(0, 0, 0, 0.3);
 }
