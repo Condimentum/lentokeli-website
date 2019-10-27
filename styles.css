@@ -114,7 +114,7 @@ body .demo-blog {
     cursor: pointer;
   }
 }
-@media (min-height: 1024px) {
+@media (min-height: 1024px), (min-width:1025px) {
   .demo-blog .mdl-card__media {
     box-sizing: border-box;
     background-size: cover;
