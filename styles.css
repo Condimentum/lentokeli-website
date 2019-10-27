@@ -69,7 +69,7 @@ body .demo-blog {
     -webkit-overflow-scrolling: touch;
   }
 }
-@media (min-height: 1024px) {
+@media (min-height: 1024px), (min-width:1025px) {
   .demo-blog.mdl-layout .mdl-layout__content {
     padding-top: 230px;
     position: relative;
