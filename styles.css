@@ -162,6 +162,9 @@ body .demo-blog {
 .demo-blog:not(.demo-blog--blogpost) .mdl-card__supporting-text ~ .mdl-card__supporting-text {
   border-top: 1px solid rgba(0,0,0,0.1);
 }
+.mdl-card__supporting-text {
+  white-space: pre-line;
+}
 
 .demo-blog .mdl-card__actions:first-child {
   margin-left: 0;
