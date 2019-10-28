@@ -35,6 +35,10 @@ body::before {
   }
 }
 
+.mdl-grid.center {
+  justify-content: center;
+}
+
 body .demo-blog {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
