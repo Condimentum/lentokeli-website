@@ -40,6 +40,6 @@ const iconMap = {
   '0.37': 'fas fa-cloud-sun fa-3x',
   '0.74': 'fas fa-sun fa-3x',
   '1.11': 'fas fa-cloud-sun-rain fa-3x',
-  '1.48': 'fas fa-cloud-showers-heay fa-3x',
+  '1.48': 'fas fa-cloud-showers-heavy fa-3x',
   '1.85': 'fas fa-poo-storm fa-3x'
 }
